@@ -1,0 +1,24 @@
+return {
+  "folke/snacks.nvim",
+  opts = {
+    explorer = {
+      -- general explorer settings (e.g. enabled, replace_netrw)
+    },
+    picker = {
+      sources = {
+        explorer = {
+          hidden = true,
+          ignored = true,
+        },
+        files = {
+          hidden = true,
+          ignored = true,
+        },
+        grep = {
+          hidden = true,
+          ignored = true,
+        },
+      },
+    },
+  },
+}
